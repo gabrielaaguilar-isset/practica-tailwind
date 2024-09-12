@@ -1,3 +1,5 @@
+import { AcordionItems } from "./AcordionItems";
+
 const items = [
   {
     question: "What payment methods do you accept?",
@@ -21,6 +23,18 @@ const items = [
   },
 ];
 
+
 export const FAQs = () => {
-  return null;
+  return (
+    <div className="bg-black text-white gradient-questions py-[72px] sm:py-24">
+      <div className="container">
+        <h2 className="text-center text-5xl sm:text-6xl sm:max-w-[648px] mx-auto font-bold tracking-tighter">Frequently asked questions</h2>
+        <div className="mt-12 max-w-[648px] mx-auto">
+          {items.map(({ question, answer }) => (
+            <AcordionItems question={question} answer={answer} key={question}/>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 };

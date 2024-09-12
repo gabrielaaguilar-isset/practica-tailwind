@@ -13,6 +13,7 @@ const config: Config = {
         center: true,
       }
     },
+    
   },
   plugins: [],
 };

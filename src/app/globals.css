@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background-FirstElement{
+    background-image: linear-gradient(to right, #FCD6FF, #29D8FF, #FFFD80, #F89ABF, #FCD6FF);
+}
+
+.background-navbarlOGO{
+    background-image: linear-gradient(to right, #F87BFF, #FB92CF, #FFDD9B, #C2F0B1, #C2F0B1, #2FD8FE);
+
+}
+
+.background-banner{
+    background-image: linear-gradient(to bottom, #000, #200D42 34%, #4F21A1 65%, #A46EDB 82% );
+
+}
+
+.background-text{
+    background-image: linear-gradient(to right, #F87AFF, #FB93D0, #FFDD99, #C3F0B2, #2FD8FE );
+}
+
+.background-semicircle{
+    background-image: radial-gradient(closest-side, #000 82%, #9560EB )!important;
+   
+}
+
+ .gradient-lados::before{
+    background-image: linear-gradient(to right, #000, rgba(0,0,0,0))!important;
+    z-index:10;
+}
+.gradient-lados::after{
+    background-image: linear-gradient(to left, #000, rgba(0,0,0,0))!important;
+    z-index:10;
+}
+
+.gradient-prouducts{
+    background-image: linear-gradient(to bottom, #000, #5D2CAB);
+
+}
+
+.gradient-questions{
+    background-image: linear-gradient(to bottom, #5D2CAB, #000);
+
+}
